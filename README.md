@@ -11,18 +11,18 @@
 Row {
     SVGAImage(
         modifier = Modifier.size(100.dp, 100.dp),
-        url = "https://res.weplayapp.com/conf/32FA4681-12C3-4115-B473-8BCBB5ADC8AF.svga",
+        url = "https://xxx.svga",
     )
     UserHeadImage(
         user = User(
             R.drawable.head,
-            "https://res.weplayapp.com/conf/32FA4681-12C3-4115-B473-8BCBB5ADC8AF.svga"
+            "https://xxx.svga"
         ),
         modifier = Modifier.size(100.dp, 100.dp)
     )
     SVGAImage(
         modifier = Modifier.size(60.dp, 100.dp),
-        url = "https://res.weplayapp.com/conf/43EB4E6A-834B-4442-A35C-4E558FA23B93.svga",
+        url = "https://xxx.svga",
         entities = mapOf("head" to ImageBitmap.imageResource(id = R.drawable.head).asAndroidBitmap())
     )
 }
