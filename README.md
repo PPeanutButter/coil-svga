@@ -4,7 +4,15 @@
 ## Preview
 ![](preview/screen.gif)
 
-## Code
+## How to use
+
+```kotlin
+ImageLoader.Builder(context).components {
+    add(SvgaDecoder.Factory())//add SvgaDecoder.Factory() to your **imageLoader**.
+}.build()
+```
+
+## Demo-Code
 > This code is **experimental** for now
 
 ```kotlin
